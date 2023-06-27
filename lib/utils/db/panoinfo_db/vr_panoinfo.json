@@ -1,0 +1,11 @@
+{
+  "id":"'",
+  "houseId":"string",
+  "filePath":"string",
+  "relativePath":"string",
+  "folderPath":"string",
+  "type":"string",
+  "needMosaic":1,
+  "floor":1,
+  "roomTitle":"string"
+}

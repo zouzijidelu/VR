@@ -1,0 +1,113 @@
+name: testt
+description: A new Flutter project.
+version: 1.0.0+1
+
+environment:
+  sdk: '>=2.19.3 <3.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  theta_client_flutter:
+    path: ./packages/theta_client_flutter
+
+  flutter_boost:
+    path: ./packages/flutter_boost-4.2.2
+
+  aijiaplugin:
+    path: ./packages/aijiaplugin
+
+  # The following adds the Cupertino Icons font to your application.
+  # Use with the CupertinoIcons class for iOS style icons.
+  cupertino_icons: ^1.0.2
+  video_player: ^2.4.10
+  panorama: ^0.4.1
+  #  #图片保存到本地相册
+  image_gallery_saver: ^1.7.1
+  #  #权限申请
+  permission_handler: ^10.2.0
+  #  #dio 网络请求
+  dio: ^5.1.1
+  #  #弹框提醒
+  fluttertoast: ^8.2.1
+  #  #图片浏览查看
+  photo_view: ^0.14.0
+  flame_audio: ^1.4.1
+  path_provider: ^2.0.14
+  flutter_svg: ^2.0.4
+  image: ^4.0.15
+  audioplayers: ^3.0.1
+  flutter_spinkit: ^5.1.0
+  flutter_smart_dialog: ^4.9.0+4
+  #网络图片缓存
+  cached_network_image: ^3.2.3
+  #上拉加载，下拉刷新
+  easy_refresh: 3.3.1+2
+  #系统设置页面
+  app_settings: ^4.2.0
+  bruno: ^3.3.0
+  http_proxy: ^1.2.1
+  package_info_plus: ^4.0.2
+  flutter_native_image: ^0.0.6+1
+  ##设备信息
+  device_info_plus: ^9.0.1
+  event_bus: ^2.0.0
+  encrypt: ^5.0.1
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_localizations:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+  pigeon: ^1.0.19
+  #token获取
+  shared_preferences: ^2.1.0
+  #数据库仓库
+  sqflite: ^2.2.8+1
+  dio_cache_interceptor: ^3.4.2
+  dio_cache_interceptor_file_store: ^1.2.2
+  #时间戳
+  date_format: ^2.0.7
+  #openurl
+  url_launcher: ^6.1.11
+  #图片选择
+  wechat_assets_picker: 8.4.2
+  wechat_camera_picker: 3.6.0
+
+# For information on the generic Dart part of this file, see the
+# following page: https://dart.dev/tools/pub/pubspec
+
+flutter:
+  # The following line ensures that the Material Icons font is
+  # included with your application, so that you can use the icons in
+  # the material Icons class.
+  uses-material-design: true
+
+  # To add Flutter specific assets to your application, add an assets section,
+  # like this:
+  assets:
+    - images/
+    - assets/icons/
+    - assets/sounds/
+    - assets/images/mine_slices/
+    - assets/images/
+    - assets/images/login/loginBg.png
+    - images/vr_house_placehold.png
+    - assets/images/login/iconPreview.png
+    - images/icon_empty.png
+    - assets/icons/icon-bottom.png
+    - assets/icons/icon-top-Selected.png
+    - assets/icons/icon_cap_resetting.png
+    - assets/icons/trash_can.png
+    - images/vr_house_add.png
+    - images/vr_house_edit_photo.png
+    - assets/images/login/iconPreviewNo.png
+    - assets/images/emptyState.png
+  module:
+    androidX: true
+    androidPackage: com.example.testt
+    iosBundleIdentifier: com.example.testt
+flutter_intl:
+  enabled: true
+

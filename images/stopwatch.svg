@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="32px" height="32px" viewBox="0 0 32 32" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>秒表_stopwatch</title>
+    <g id="1期" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="10拍摄中-" transform="translate(-40.000000, -701.000000)">
+            <g id="秒表_stopwatch" transform="translate(40.000000, 701.000000)">
+                <rect id="矩形" x="0" y="0" width="32" height="32"></rect>
+                <path d="M16,30 C22.6273882,30 28,24.7379358 28,18.2469136 C28,11.7558914 22.6273882,6.49382716 16,6.49382716 C9.37261176,6.49382716 4,11.7558914 4,18.2469136 C4,24.7379358 9.37261176,30 16,30 Z" id="路径" stroke="#FFFFFF" stroke-width="2" stroke-linejoin="round"></path>
+                <line x1="20.9411765" y1="2.34567901" x2="11.0588235" y2="2.34567901" id="路径" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></line>
+                <line x1="25.8823529" y1="6.49382716" x2="23.7647059" y2="8.56790123" id="路径" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></line>
+            </g>
+        </g>
+    </g>
+</svg>
